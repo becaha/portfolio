@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    text-align: center;
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+    background-color: #5090c3;
+    text-align: center;
+}
+
+h2 {
+    background-color: #A6DFFF;
+    text-align: center;
+}
+
+p {
+    background-color: #A6DFFF;
+    text-align: center;
+}
+
+ul,li {
+    text-align: left;
+}
+
+.image {
+    border: 1px solid #5090B3;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+.main-dark {
+    background-color: #5090B3;
+}
+
+.main-light {
+    background-color: #A6DFFF;
+}
+
+.complementary {
+    background-color: #FFD9A7;
+}
+
+.complementary-light {
+    background-color: #FFE3BF;
+}
+
+.complementary-lighter {
+    background-color: #FCF0E0;
+}
