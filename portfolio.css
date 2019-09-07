@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    text-align: center;
 }
 
 body {
@@ -9,18 +8,41 @@ body {
 
 h1 {
     background-color: #5090c3;
-    text-align: center;
+    padding: 10px;
 }
 
 h2 {
-    background-color: #A6DFFF;
-    text-align: center;
+    background-color: #5090c3;
+    padding: 10px;
 }
 
 p {
     background-color: #A6DFFF;
+    padding: 10px;
+}
+
+div.image {
     text-align: center;
 }
+
+ul {
+    padding-top: 10px;
+}
+
+section {
+ display: flex;
+}
+
+aside {
+ flex: 1;
+ background-color: #E6F0FF;
+}
+
+article {
+ flex: 4;
+ background-color: #A6DFFF;
+}
+
 
 nav ul {
   list-style-type: none;
@@ -32,6 +54,7 @@ nav ul {
 
 nav li {
     display: inline;
+    float: left;
 }
 
 nav li a {
@@ -51,7 +74,7 @@ nav .active {
   background-color: #4CAF50;
 }
 
-.image {
+img {
     border: 1px solid #5090B3;
     padding: 10px;
     background-color: white;
